@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import seaborn as sns
 
-df_day = pd.read_csv("df_day.csv")
-df_hour = pd.read_csv("df_hour.csv")
+df_day = pd.read_csv("dashboard/df_day.csv")
+df_hour = pd.read_csv("dashboard/df_hour.csv")
 
 def create_season_rental_df(df):
     # Grouping data
